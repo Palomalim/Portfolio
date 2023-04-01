@@ -1,0 +1,313 @@
+@import url("https://use.typekit.net/zjw7unm.css");
+
+body{
+    background-color: #fff;
+    margin: 0;
+    font-family: "greycliff-cf", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+nav {
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    display: block;
+    font-family: "new-hero",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    position: fixed;
+    border-bottom: solid  0.1rem #d9d9d9;
+      
+}
+nav:hover{
+    
+}
+
+
+   
+
+
+
+button{
+    flex-direction: row ;
+    justify-content: space-between;
+   font-family: "new-hero",sans-serif;
+    font-weight: 400;
+    border-radius: 20rem;
+    height: 2.2rem;
+    width: 8.5rem;
+    border:none;
+    background: #fff;  
+    color: #fff;
+    align-items: center;
+   
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0 10px;
+  
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.display-block{
+    display: block;
+}
+
+.pagina_perfil{
+    justify-content: space-around;
+   align-items: center;
+   width: auto;
+   height:700px;
+   
+    
+}
+
+.pagina_perfil .text{
+    display: block;
+    width: 30rem;
+    
+  
+}
+
+p{
+    margin: 5px;
+}
+
+.informa{
+    padding-top: 0.4rem;
+}
+.imagem{
+    padding: 2rem;
+}
+#tipo{
+    font-weight: 800;
+
+}
+.apresentação{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.texto_apresentacao {
+    width: 40rem;
+    word-break: break-all;
+}
+
+.nome{
+    font-family: "new-hero",sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size:3rem;
+}
+
+
+#nome-front{
+    font-family: "new-hero",sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size:2.rem;
+}
+
+.tags{
+   background-color: rgb(71, 7, 71); 
+    border-radius: 4rem;
+    /*border: solid 1px rgb(71, 7, 71) ;*/
+    padding: 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+   color: #fff;
+}
+
+.Projetos{
+    flex-direction: column;
+    width: auto;
+    height: 20rem;
+    justify-content: space-around;
+   
+   
+
+}
+
+
+.container{
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 10rem;
+    margin: 4rem;
+    
+    
+}
+.borda{
+    border: solid 2px #d6d3d3;
+    background:#d9d9d9; ;
+    border-radius: 2rem;
+    height: 10rem;
+    width: 10rem;
+    color:#fff;
+   
+    
+}
+#p1{
+    padding-left:0.5rem;
+}
+.centralizar {
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 800;
+    text-align:end;
+    padding-left:7.4rem;
+}
+.nome_projeto{
+    margin:auto;
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 800;
+    color: black;
+
+}
+.ferramenta2{
+    display: table-row;
+    justify-content: space-around;
+
+}
+
+.ferramentas{
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 30rem;
+
+}
+
+.caracteristica_nivel{
+    border-radius: 20rem;
+    border: solid 2px #d9d9d9 ;
+}
+
+.icon{
+    background-image: url("./img/javascripr_redondo.png");
+    width: 1.5rem;
+    height: 1.5rem;
+    align-self:flex-end;
+    position: absolute;
+}
+
+.icon2{
+    width: 1.5rem;
+    height: 1.5rem;
+    align-self:flex-end;
+    position: absolute;
+}
+.nivel-0{
+ background: #d9d9d9;
+    width: 2rem;
+    height: 2rem;
+    align-self: center;
+    position: center;
+}
+
+.nivel-1{
+    width: 5rem;
+    height: 5rem;
+    align-self: center;
+    position: absolute;
+    
+}
+
+.nivel-2{
+    width: 10rem;
+    height: 10rem;
+    align-self: center;
+    position: absolute;
+}
+.nivel-3{
+    width: 15rem;
+    height: 15rem;
+    align-self: center;
+    position: absolute;
+}
+.nivel-4{
+    width: 20rem;
+    height: 20rem;
+    align-self: center;
+    position: absolute;
+}
+.nivel-5{
+    width: 25rem;
+    height: 25rem;
+    align-self: center;
+    position: absolute;
+}
+
+.niveis{
+    border: solid 2px rgb(71, 7, 71) ;
+    width: auto;
+    height: 30rem;    
+}
+
+.nivel-1 .nivel-2 .nivel-3 .nivel-4 .nivel-5{
+    border:solid 2px rgb(71, 7, 71);
+    width: 3rem;
+}
+
+.icon_contato{
+    width: 10rem;
+    height: 10rem;
+    align-self: self-start;
+    position:absolute;
+}
+.contatos{
+   
+    width: auto;
+    height: 30rem;
+}
+
+.redes-sociais{
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    
+}
+
+.nome_contatos{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.icons-rede{
+    width: 1.2rem;
+    height: 5rem;
+    margin: auto;
+    align-items: center;
+    
+}
+.icons-rede:hover{
+    box-shadow:  2px 1px 5px #d9d9d9;
+    border-radius: 20rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.groud{
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 5rem;
+    width: auto;
+    height: 5rem;
+    background-color: rgb(71, 7, 71);
+}
